@@ -1,0 +1,47 @@
+{
+  "Screen Size Extra Small": {
+    "scope": "css",
+    "prefix": "screen-size-extra-small",
+    "body": ["@media (min-width: 360px) {$1}"],
+    "description": "Extra small screen size (360px) media query"
+  },
+  "Screen Size Small": {
+    "scope": "css",
+    "prefix": "screen-size-small",
+    "body": ["@media (min-width: 640px) {$1}"],
+    "description": "Small screen size (640px) media query"
+  },
+  "Screen Size Medium": {
+    "scope": "css",
+    "prefix": "screen-size-medium",
+    "body": ["@media (min-width: 768px) {$1}"],
+    "description": "Medium screen size (768px) media query"
+  },
+  "Screen Size Large": {
+    "scope": "css",
+    "prefix": "screen-size-large",
+    "body": ["@media (min-width: 1024px) {$1}"],
+    "description": "Large screen size (1024px) media query"
+  },
+  "Screen Size Extra Large": {
+    "scope": "css",
+    "prefix": "screen-size-extra-large",
+    "body": ["@media (min-width: 1280px) {$1}"],
+    "description": "Extra large screen size (1280px) media query"
+  },
+  "Screen Size Extra Extra Large": {
+    "scope": "css",
+    "prefix": "screen-size-extra-extra-large",
+    "body": ["@media (min-width: 1536px) {$1}"],
+    "description": "Extra extra large screen size (1536px) media query"
+  },
+  "Device Mobile Large": {
+    "scope": "css, javascript, typescript",
+    "prefix": "device-mobile-large",
+    "body": ["@media (min-width: 425px) {$1}"],
+    "description": "Mobile large (425px) media query"
+  }
+}
+
+
+

@@ -1,0 +1,17 @@
+{
+  "name": "murky-water",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.11.0"
+  },
+  "description": "Murky Water CSS Snippets",
+  "contributes": {
+    "snippets": [
+        {
+          "language": ["css"],
+          "path": "./snippets/css.json"
+        }
+    ]
+  }
+}
+
